@@ -1,7 +1,7 @@
-Full Name: John Emy L. Bautista
-Degree Program: BS Computer Science
-Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-MoonSky20/
-Steps on how to create Github Page: Click Settings on your repo, then click on the pages section. You will see the deploy from branch section and you will choose the main branch and roots
+Full Name: John Emy L. Bautista<br>
+Degree Program: BS Computer Science<br>
+Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-MoonSky20/<br>
+Steps on how to create Github Page: Click Settings on your repo, then click on the pages section. You will see the deploy from branch section and you will choose the main branch and roots<br>
 What are your key takeaways from this exercise? Flexboxes are complicated to use especially since it has many attributes. But it does really help to make your site adjustable to sizes.
 
 
