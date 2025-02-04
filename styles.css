@@ -1,12 +1,13 @@
 body{
     margin:0;
+    background-color: darkblue;
+
 }
 
 .flex-container {
     display: flex;
     flex-wrap:wrap;
     flex-direction: column;   
-    display: flex;
     justify-content: center;
     border: 20px solid darkblue;
     background-color: pink;
@@ -15,20 +16,21 @@ body{
 .flex-box {
     display: flex;
     margin:20px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #border{
     border: 10px solid red;
-    
+    background-color: pink;
 }
 
 .flex-box2{
     display:flex;
-    border: 2px solid red;
-    justify-content: center;
-    flex-wrap: wrap ;
-    align-content: center;
+    border: 5px solid red;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
     padding: 10px;
     margin: 10px;
 }
@@ -38,28 +40,25 @@ body{
     display:flex;
     background-color: darkblue;
     border-bottom: 10px solid red;
-    color: red;
+    color: pink;
     font-family: "Times New Roman", Times, serif;
     justify-content: space-between;
+    flex-direction: row-reverse;
     padding-bottom: 0;
 
 }
 
 #navbars1{
-    margin-left: 1%;
+    display:flex;
+    margin-right: 1%;
+    flex-direction: row-reverse;
+    margin-top: 5px;
 }
 
-#navbars2{
-    color:red;
-    display: flex;
-    justify-content: space-between; 
-    justify-items: flex-end;
-    margin-right:10px;
-}
 
 #personal-information{
-    justify-content: space-around;
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 #previous-projects{
@@ -68,23 +67,27 @@ body{
     justify-content: space-evenly;
 }
 
-#featured-photo{
+.feature-sections-div{
     display:flex;
-    height:300px;
+    
+}
+
+#featured-photo-div{
+    display:flex;
     border: 7px solid darkblue;
-    margin-top: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     background-color: red;
     padding:0;
     color: pink;
-    margin-bottom:  10px;;
+    width: 97.5%;
 }
 
 #featured{
-    display:flex;
-    border-right: 5px solid darkblue;
-    border-left: 5px solid darkblue;
-    justify-content: center;
-    max-width: fit-content;
+    border: 7px solid darkblue;
+    width: 100%;
 }
 
 #title{
@@ -95,18 +98,13 @@ body{
 }
 
 #gametitle{
-    font-size: 15vh;
+    font-size: 500%;
     color: pink;
     font-family:"Times New Roman", Times, serif;
-    font-weight: 1000;
     margin: 0;
     margin-left: 10px;
 }
 
-.feature-sections{
-    display:flex;
-    flex:1;
-}
 
 #game-specs{
     margin:10px;
@@ -130,4 +128,83 @@ body{
     width: 70%;
     margin:0;
 
+}
+
+.navbars2{
+    color: pink;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 3px;
+}
+
+.navbars_items{
+    color:pink;
+    margin-left: 15px;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.flex-box3{
+    color: pink;
+    font-weight: bold;
+}
+
+#personal-information{
+    background-color: red;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 7px solid darkblue;
+
+}
+
+#footer{
+    display:flex;
+    background-color: darkblue;
+    border-top: 10px solid red;
+    color: pink;
+    font-family: "Times New Roman", Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+
+.project-titles{
+    color: darkblue;
+    font-size: 30px;
+}
+
+.header{
+    color: darkblue;
+    font-size: 30px;
+    align-self:center ;
+}
+
+#autobiography{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#profile-icon{
+    width:10%;
+    height: 80%;
+    margin-left:10px;
+}
+
+.footer-info{
+    margin:10px;
+}
+
+#profile-picture{
+    width:10%;
+    height:10%;
+}
+
+#profile-picture{
+    margin:10px;
+    width:10%
+}
+
+#footer-info-div{
+    align-content: center;
 }
